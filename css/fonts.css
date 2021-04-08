@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Furtiger";
+    src: url("../webfonts/Frutiger/FrutigerLTArabic-55Roman.woff2") format("woff2"), url("../webfonts/Frutiger/FrutigerLTArabic-55Roman.woff") format("woff"), url("../webfonts/Frutiger/frutiger-lt-arabic-55-roman.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Furtiger";
+    src: url("../webfonts/Frutiger/FrutigerLTArabic-65Bold.woff2") format("woff2"), url("../webfonts/Frutiger/FrutigerLTArabic-65Bold.woff") format("woff"), url("../webfonts/Frutiger/frutiger-lt-arabic-65-bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
