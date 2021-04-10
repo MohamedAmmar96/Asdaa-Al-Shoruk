@@ -1385,8 +1385,31 @@
         .last-p .tasawk {
             margin-inline-start: 4px;
         }
+        /******************************** Whats App **************************/
+        
+        body .whats {
+            position: fixed;
+            top: 35%;
+            right: 15px;
+            width: 55px;
+            height: 55px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #0dc143;
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            font-size: 36px;
+            z-index: 999;
+        }
         /*==================================================================================
-                                    Page Overlay
+                                            Page Overlay
         ==================================================================================*/
         
         .overlay-box {
@@ -1450,7 +1473,7 @@
         }
         
         .loading-overlay-box img {
-            width: 200px;
+            width: 270px;
             margin-bottom: 10px;
         }
         
@@ -1975,9 +1998,6 @@
                 justify-content: center;
                 margin-bottom: 15px;
             }
-            .payment {
-                /* margin-bottom: 10px; */
-            }
             .loading-overlay-box img {
                 width: 150px;
                 margin-bottom: 10px;
@@ -1985,6 +2005,27 @@
             }
             .progress-bar {
                 width: 150px;
+            }
+            body .whats {
+                position: fixed;
+                top: 35%;
+                right: 10px;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: #0dc143;
+                color: var(--white);
+                text-decoration: none;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                font-size: 28px;
+                z-index: 999;
             }
         }
         
